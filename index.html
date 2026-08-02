@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Reservation System</title>
+</head>
+<body>
+
+    <h1 align="center">Ticket Reservation System</h1>
+
+    <form>
+
+        <fieldset>
+            <legend><b>Passenger Details</b></legend>
+
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname"><br><br>
+
+            <label>Age:</label><br>
+            <input type="number" name="age"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+            <label>Mobile Number:</label><br>
+            <input type="tel" name="mobile"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Journey Details</b></legend>
+
+            <label>From:</label><br>
+            <input type="text" name="from"><br><br>
+
+            <label>To:</label><br>
+            <input type="text" name="to"><br><br>
+
+            <label>Date of Journey:</label><br>
+            <input type="date" name="date"><br><br>
+
+            <label>Class:</label><br>
+            <select name="class">
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First Class</option>
+            </select><br><br>
+
+            <label>Number of Tickets:</label><br>
+            <input type="number" min="1" max="10"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Seat Preference</b></legend>
+
+            <input type="checkbox"> Window Seat<br>
+            <input type="checkbox"> Aisle Seat<br>
+            <input type="checkbox"> Near Exit<br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Payment Method</b></legend>
+
+            <input type="radio" name="payment"> Credit Card<br>
+            <input type="radio" name="payment"> Debit Card<br>
+            <input type="radio" name="payment"> UPI<br>
+            <input type="radio" name="payment"> Net Banking<br><br>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Book Ticket">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
