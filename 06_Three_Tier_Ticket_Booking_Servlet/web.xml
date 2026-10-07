@@ -1,0 +1,4 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+<servlet><servlet-name>TicketServlet</servlet-name><servlet-class>TicketServlet</servlet-class></servlet>
+<servlet-mapping><servlet-name>TicketServlet</servlet-name><url-pattern>/TicketServlet</url-pattern></servlet-mapping>
+</web-app>

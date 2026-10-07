@@ -1,0 +1,1 @@
+Three-tier concept: Presentation (HTML form) -> Business/Controller (Servlet) -> Data layer (can be connected to MySQL using JDBC).

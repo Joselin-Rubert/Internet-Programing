@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{font-family:Arial;background:#eee;padding:30px}h1{text-align:center}.products{display:flex;gap:20px;justify-content:center}.card{background:white;padding:25px;width:200px;text-align:center;border-radius:10px;box-shadow:0 2px 8px #aaa}.card button{padding:10px 18px;background:#222;color:white;border:0;border-radius:5px}

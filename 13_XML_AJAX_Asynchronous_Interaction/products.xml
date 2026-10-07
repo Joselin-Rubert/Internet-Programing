@@ -1,0 +1,5 @@
+<?xml version="1.0"?><products>
+<product><name>Laptop</name><price>55000</price></product>
+<product><name>Keyboard</name><price>1200</price></product>
+<product><name>Mouse</name><price>700</price></product>
+</products>

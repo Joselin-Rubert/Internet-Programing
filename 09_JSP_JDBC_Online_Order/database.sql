@@ -1,0 +1,3 @@
+CREATE DATABASE shopdb;
+USE shopdb;
+CREATE TABLE orders(id INT AUTO_INCREMENT PRIMARY KEY, customer VARCHAR(100), product VARCHAR(100), quantity INT);

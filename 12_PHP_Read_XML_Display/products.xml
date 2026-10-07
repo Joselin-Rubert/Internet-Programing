@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<products>
+ <product id="101"><name>Laptop</name><price>55000</price></product>
+ <product id="102"><name>Headphones</name><price>2500</price></product>
+ <product id="103"><name>Smart Watch</name><price>4999</price></product>
+</products>
